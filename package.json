@@ -1,0 +1,21 @@
+{
+  "name": "torrent-net",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "babel-node server/index.js"
+  },
+  "author": "Nemo157 (Wim Looman) <wim@nemo157.com>",
+  "license": "MIT",
+  "dependencies": {
+    "Davis": "^0.8.2",
+    "babel": "^5.8.21",
+    "bittorrent-tracker": "^3.6.3",
+    "browserify": "^9.0.8",
+    "drag-drop": "^2.2.4",
+    "es6ify": "^1.6.0",
+    "jquery": "^2.1.3",
+    "webtorrent": "^0.30.0"
+  }
+}
